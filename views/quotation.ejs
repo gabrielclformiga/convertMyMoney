@@ -1,0 +1,17 @@
+<%- include('header') %>
+
+<div class="container">
+  <% if(error) { %>
+    <h2><%= error %></h2>
+  <% } else { %>
+    <h2>Quotation: <%= quotation %></h2>
+    <h2>Quantity: <%= quantity %></h2>
+    <h2>Conversion: <%= conversion %></h2>
+  <% } %>
+
+  <form action="/" method="GET">
+    <button class="button">Return</button>
+  </form>
+</div>
+
+<%- include('footer') %>

@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+h1 img {
+  width: 489px;
+  margin: 20px;
+}
+
+input, .button {
+  outline: 0;
+  margin: 16px auto;
+  display: flex;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  background: #FDFDFD;
+  font-size: 18px;
+}
+
+.text {
+  padding: 10px 15px;
+}
+
+.button {
+  background: #B0C4DE;
+  padding: 10px 15px;
+}
+
+.button:hover {
+  background: #B0C4DE;
+  padding: 10px 15px;
+  box-shadow: 1px 1px 1px #808080;
+}
