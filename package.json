@@ -1,7 +1,6 @@
 {
   "name": "convertmymoney",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -11,10 +10,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "ejs": "^3.1.6",
     "express": "^4.17.1"
   },
   "devDependencies": {
     "jest": "^26.6.3"
-  }
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielclformiga/convertMyMoney.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielclformiga/convertMyMoney/issues"
+  },
+  "homepage": "https://github.com/gabrielclformiga/convertMyMoney#readme",
+  "description": ""
 }
